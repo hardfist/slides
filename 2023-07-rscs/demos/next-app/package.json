@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "build:webpack": "webpack -c rspack.config.js",
     "build:rspack": "rspack",
     "build": "next build",
     "dev": "next dev",
@@ -18,6 +19,7 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
+    "esbuild-loader": "latest",
     "@rspack/cli": "latest",
     "@types/eslint": "^8.37.0",
     "@types/node": "^18.16.0",
