@@ -3,6 +3,7 @@
   "version": "0.1.0",
   "private": true,
   "scripts": {
+    "build:rspack": "rspack",
     "build": "next build",
     "dev": "next dev",
     "lint": "next lint",
@@ -17,6 +18,7 @@
     "zod": "^3.21.4"
   },
   "devDependencies": {
+    "@rspack/cli": "latest",
     "@types/eslint": "^8.37.0",
     "@types/node": "^18.16.0",
     "@types/prettier": "^2.7.2",
@@ -35,5 +37,6 @@
   },
   "ct3aMetadata": {
     "initVersion": "7.14.1"
-  }
+  },
+  "sideEffects": false
 }
