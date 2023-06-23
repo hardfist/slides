@@ -7,6 +7,7 @@ module.exports = {
     minimize: false,
     moduleIds: "named",
   },
+  // remove this in rspack
   module: {
     rules: [
       {
